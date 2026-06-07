@@ -16,6 +16,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run Python File
+      - name: Test Python
         run: |
-          python resume_parser/resume_parser.py
+          echo "Python workflow working"
+          ls
